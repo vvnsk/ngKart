@@ -1,0 +1,138 @@
+/*-----------------------Home Slider Start------------------------*/
+*{
+    margin:0;
+    padding:0;
+}
+img{
+    border:0;
+}
+.banner-slider{
+    overflow:hidden;
+    margin:120px auto;
+    width:805px; height:320px;
+    -webkit-box-shadow:0 0 10px 1px rgba(0, 0, 0, 0.35);
+    box-shadow:0 0 10px 1px rgba(0, 0, 0, 0.35);
+}
+.banner-slider ul {
+    width:2000px;
+}
+.banner-slider li {
+    position:relative;
+    display:block;
+    float:left;
+    width:160px;
+    border-left:1px solid #888;
+    -webkit-box-shadow:0 0 25px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.banner-slider ul:hover li {
+    width:40px;
+}
+.banner-slider ul li:hover {
+    width:690px;
+}
+.banner-slider li img {
+    display:block;
+    width:690px;
+}
+.btitle {
+    position:absolute;
+    top:0;
+    left:0;
+    padding:10px 20px;
+    width:800px;
+    background:rgba(0, 0, 0, 0.5);
+    color:#fff;
+    font:normal 25px 'Segoe UI Light',
+    sans-serif;
+}
+.btitle a {
+    display:block;
+    color:#fff;
+    text-decoration:none;
+}
+/*-----------------------Home Slider End------------------------*/
+
+/*-----------------------Nav Start------------------------*/
+header{
+    position: absolute;
+    z-index:1;
+}
+section{
+    margin-top:64px;
+}
+.logged,.login a{
+    padding: 0 30px;
+}
+.gn-menu .glyphicon{
+    padding:0 22px;
+}
+input.gn-search{
+    padding-left:0;
+}
+.gn-menu-main > li:last-child {
+    display: block;
+    float: left;
+    height: 100%;
+    border-right: 1px solid #c6d0da;
+    text-align: center;
+}
+.gn-menu-main > li.login,.gn-menu-main > li.cart{
+    float: right;
+    border-right: none;
+    border-left: 1px solid #c6d0da;
+}
+/*-----------------------Nav End------------------------*/
+
+.whitebg {
+    background-color: white;
+}
+.internal{
+    width:96%;
+    margin: 1% 1%;
+    padding:2%
+}
+.internal:first-child{
+    margin: 6% 1% 1% 1%;
+}
+h1 {
+    font-size: 36px;
+    margin-top:0;
+}
+.capitalize {
+    text-transform: capitalize;
+}
+.fLeft{
+    float:left;
+}
+.fRight{
+    float:right;
+}
+.clearfix{
+    clear:both;
+}
+button{
+    padding: 10px 25px;
+    color: white;
+    background-color: #34495E;
+    border: none;
+    border-radius: 5px;
+}
+
+.marR20px{
+    margin-right:20px;
+}
+blockquote{
+    font-size:1em;
+}
+blockquote cite{
+    font-size:0.8em;
+}
+blockquote p{
+    margin:0;
+}

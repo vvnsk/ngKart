@@ -1,0 +1,22 @@
+<div class="row internal whitebg" ng-repeat="prod in products">
+    <div class="col-lg-10">
+        <img class="fLeft marR20px" ng-src="{{prod.images.thumb}}">
+        <div class="fLeft">
+            <a ng-href="#/category/{{prod.category}}/{{prod.name}}"><h3 class="capitalize">{{prod.name}}</h3></a>
+            <p><label>Quantity:</label> {{prod.quantity}}</p>
+            <p><label>Price: </label>{{prod.price}}</p>
+            <button ng-click="removeItem($index)">Remove</button>
+        </div>
+    </div>
+    <div class="col-lg-2">
+        <p>{{ prod.total | currency:'Rs.'}}</p>
+    </div>
+</div>
+<div class="internal whitebg row" ng-show="products.length>0">
+    <div class="col-lg-2 fRight">
+        <p><label>Total: </label>{{total}}</p>
+    </div>
+</div>
+<div class="internal whitebg row" ng-show="products.length==0">
+    Empty Cart!!
+</div>

@@ -1,0 +1,96 @@
+{
+    "headphones":[{
+        "name":"beats",
+        "model":"XB-Z5",
+        "price":"Rs.5000",
+        "category":"headphones",
+        "rating":"5",
+        "description":"Xtra bass for immersive experience",
+        "images":{
+            "thumb":"images/beats_small.jpg",
+            "full":"images/beats_full.jpg"
+        },
+        "reviews":[
+            {
+                "stars":"5",
+                "comment":"wonderful",
+                "author":"beat1@gmail.com"
+            },
+            {
+                "stars":"3",
+                "comment":"could be better",
+                "author":"beat2@gmail.com"
+            }
+        ]
+    },{
+        "name":"sennheiser",
+        "model":"GT-250R",
+        "price":"Rs.3000",
+        "category":"headphones",
+        "rating":"4",
+        "description":"More than sound",
+        "images":{
+            "thumb":"images/sennhiser_small.jpg",
+            "full":"images/sennhiser_full.jpg"
+        },
+        "reviews":[
+            {
+                "stars":"4",
+                "comment":"Awesome!!",
+                "author":"sen1@gmail.com"
+            },
+            {
+                "stars":"2",
+                "comment":"Faulty!!",
+                "author":"sen2@gmail.com"
+            }
+        ]
+    }],
+    "shoes":[{
+        "name":"nike",
+        "model":"Running 5.0",
+        "price":"Rs.5000",
+        "category":"shoes",
+        "rating":"5",
+        "description":"Just do it",
+        "images":{
+            "thumb":"images/nike_small.jpg",
+            "full":"images/nike_full.png"
+        },
+        "reviews":[
+            {
+                "stars":"4",
+                "comment":"My gym shoes",
+                "author":"nike1@gmail.com"
+            },
+            {
+                "stars":"5",
+                "comment":"On clouds",
+                "author":"nike2@gmail.com"
+            }
+        ]
+    },{
+        "name":"reebok",
+        "model":"Reezig 3",
+        "price":"Rs.3000",
+        "category":"shoes",
+        "rating":"4",
+        "description":"Go the extra mile",
+        "images":{
+            "thumb":"images/reebok_small.jpg",
+            "full":"images/reebok_full.png"
+        },
+        "reviews":[
+            {
+                "stars":"4",
+                "comment":"Limelight stealer!!",
+                "author":"rebok1@gmail.com"
+            },
+            {
+                "stars":"4",
+                "comment":"Quality speaks",
+                "author":"rebok2@gmail.com"
+            }
+        ]
+    }]
+}

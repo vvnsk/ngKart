@@ -1,0 +1,41 @@
+<div class="internal whitebg">
+
+    <h1 class="capitalize">{{product.name}}</h1>
+    <div class="row">
+        <div class="col-lg-8">
+            <p>{{product.model}}</p>
+            <p>{{product.price}}</p>
+            <p>{{product.rating}}</p>
+            <p>{{product.description}}</p>
+            <p><label>Quantity :</label> <input ng-model="product.quantity" type="number"></p>
+            <button ng-click="a2c(product)">Add to Cart</button>
+            <div class="panel">
+                <h4>Reviews</h4>
+                <blockquote ng-repeat="review in product.reviews">
+                    <label>Stars : {{review.stars}}</label>
+                    <p>{{review.comment}}</p>
+                    <cite>by: {{review.author}}</cite>
+                </blockquote>
+                <h5>Submit a Review</h5>
+                <blockquote>
+                    <label>Stars : {{review.stars}}</label>
+                    <p>{{review.comment}}</p>
+                </blockquote>
+                <select ng-model="review.stars" required>
+                    <option value="1">1 stars</option>
+                    <option value="2">2 stars</option>
+                    <option value="3">3 stars</option>
+                    <option value="4">4 stars</option>
+                    <option value="5">5 stars</option>
+                </select>
+                <textarea ng-model="review.comment" required></textarea>
+                <button type="submit" ng-click="addReview()">Submit</button>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <img  ng-src="{{product.images.full}}"/>
+        </div>
+    </div>
+
+
+</div>

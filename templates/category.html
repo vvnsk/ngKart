@@ -1,0 +1,19 @@
+<div class="internal whitebg">
+
+    <h1 class="capitalize">{{categoryid}}</h1>
+
+    <div class="row">
+
+            <div class="col-lg-4" ng-repeat="cat in category">
+                <a ng-href="#/category/{{categoryid}}/{{cat.name}}"><h2 class="capitalize">{{cat.name}}</h2></a>
+                <div class="fLeft">
+                    <p> <label>Model:</label> {{cat.model}}</p>
+                    <p> <label>Price:</label> {{cat.price}}</p>
+                    <p> <label>Rating:</label> {{cat.rating}}</p>
+                </div>
+                <img class="fRight" ng-src="{{cat.images.thumb}}"/>
+                <div class="clearfix"></div>
+            </div>
+
+    </div>
+</div>
